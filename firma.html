@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firma de correo electrónico</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 25px;
+            color: #000;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        td {
+            vertical-align: top;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+        .info {
+            display: flex;
+            align-items: center; /* Centra verticalmente los elementos dentro de .info */
+        }
+        .info img {
+            width: 130px; /* Ajusta el tamaño de la imagen principal según sea necesario */
+            max-width: 100%;
+            height: auto;
+            margin-right: 10px; /* Espaciado entre la imagen y el texto */
+        }
+        .info .info-icon {
+            width: 15px; /* Ajusta el tamaño de los iconos según sea necesario */
+            max-width: 100%;
+            height: auto;
+            margin-right: 7px; /* Espaciado entre los iconos y el texto */
+        }
+        .info .info-icons {
+            display: flex;
+            align-items: center; /* Alinea los iconos verticalmente */
+        }
+        .info-text {
+            flex-grow: 1; /* Hace que el contenedor de texto ocupe todo el espacio disponible */
+            display: flex;
+            flex-direction: column; /* Coloca el texto en una columna */
+        }
+        .info strong {
+            color: #423838;
+            font-size: 23px;
+            display: block; /* Coloca el nombre en una línea separada */
+            margin-bottom: 3px; /* Ajustado el espaciado entre el nombre y el siguiente elemento */
+        }
+        .info span,
+        .info a {
+            color: rgba(0, 0, 0, 0.6);
+            font-size: 13px;
+            display: block; /* Cada línea de texto en una línea separada */
+            margin-bottom: 3px; /* Ajustado el espaciado entre líneas de texto */
+            text-decoration: none; 
+        }
+        .vertical-line {
+            border-left: 2px solid rgba(0, 0, 0, 0.2); /* Línea vertical entre la imagen y el texto */
+            margin-right: 15px; /* Espaciado entre la línea y el texto */
+            height: 130px; /* Altura de la línea, ajusta según sea necesario */
+        }
+        /* Espaciado adicional después de "Desarrolladora Front End" */
+        .info .after-developer {
+            margin-bottom: 10px;
+        }
+        /* Ajuste de la alineación vertical para el icono de LinkedIn */
+        .info .linkedin-container {
+            margin-top: 5px; /* Ajusta según sea necesario para alinear con la imagen de la izquierda */
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>
+                <div class="info">
+                    <img src="./fabianaFondoBlanco-fotor-2023112219328.png" alt="imagen personal Fabiana">
+                    <div class="vertical-line"></div>
+                    <div class="info-text">
+                        <strong>Fabiana Cervini</strong>
+                        <span>Directora Comercial Sr </span>
+                        <span>Desarrolladora Front End</span>
+                        <span class="after-developer"></span>
+                        <div class="info-icons">
+                            <img class="info-icon" src="./booking.png" alt="ícono teléfono">
+                            <a href="tel:+5491127835949" target="_blank">+54 9 11 2783-5949</a>
+                        </div>
+                        <div class="info-icons linkedin-container">
+                            <img class="info-icon" src="./linkeind.png" alt="ícono LinkedIn">
+                            <a href="https://ar.linkedin.com/in/fabianacervini" target="_blank">linkedin.com/in/fabianacervini</a>
+                        </div>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
+

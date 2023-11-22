@@ -1,0 +1,47 @@
+/* firma.css */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #000;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+td {
+    vertical-align: top;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.info {
+    padding-left: 10px;
+    border-left: 2px solid #DDDDDD;
+}
+
+.info strong {
+    color: #423838;
+    font-size: 16px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.info span,
+.info a {
+    color: #000000;
+    font-size: 13px;
+    display: block;
+    margin-bottom: 8px;
+}
+
+/* Nueva regla para la imagen */
+.info img {
+    width: 100%; /* La imagen ocupará el 100% del ancho de su contenedor */
+}
