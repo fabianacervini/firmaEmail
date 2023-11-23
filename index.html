@@ -10,6 +10,12 @@
             font-family: Arial, Helvetica, sans-serif;
             font-size: 25px;
             color: #000;
+            margin: 0; /* Elimina el margen predeterminado del cuerpo */
+            padding: 0; /* Elimina el relleno predeterminado del cuerpo */
+        }
+        .container {
+            max-width: 600px; /* Establece el ancho máximo del contenedor */
+            margin: 0 auto; /* Centra el contenedor en la página */
         }
         table {
             width: 100%;
@@ -79,30 +85,32 @@
     </style>
 </head>
 <body>
-    <table>
-        <tr>
-            <td>
-                <div class="info">
-                    <img src="./fabianaFondoBlanco-fotor-2023112219328.png" alt="imagen personal Fabiana">
-                    <div class="vertical-line"></div>
-                    <div class="info-text">
-                        <strong>Fabiana Cervini</strong>
-                        <span>Directora Comercial Sr </span>
-                        <span>Desarrolladora Front End</span>
-                        <span class="after-developer"></span>
-                        <div class="info-icons">
-                            <img class="info-icon" src="./booking.png" alt="ícono teléfono">
-                            <a href="tel:+5491127835949" target="_blank">+54 9 11 2783-5949</a>
-                        </div>
-                        <div class="info-icons linkedin-container">
-                            <img class="info-icon" src="./linkeind.png" alt="ícono LinkedIn">
-                            <a href="https://ar.linkedin.com/in/fabianacervini" target="_blank">linkedin.com/in/fabianacervini</a>
+    <div class="container">
+        <table>
+            <tr>
+                <td>
+                    <div class="info">
+                        <img src="./fabianaFondoBlanco-fotor-2023112219328.png" alt="imagen personal Fabiana">
+                        <div class="vertical-line"></div>
+                        <div class="info-text">
+                            <strong>Fabiana Cervini</strong>
+                            <span>Directora Comercial Sr </span>
+                            <span>Desarrolladora Front End</span>
+                            <span class="after-developer"></span>
+                            <div class="info-icons">
+                                <img class="info-icon" src="./booking.png" alt="ícono teléfono">
+                                <a href="tel:+5491127835949" target="_blank">+54 9 11 2783-5949</a>
+                            </div>
+                            <div class="info-icons linkedin-container">
+                                <img class="info-icon" src="./linkeind.png" alt="ícono LinkedIn">
+                                <a href="https://ar.linkedin.com/in/fabianacervini" target="_blank">linkedin.com/in/fabianacervini</a>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </td>
-        </tr>
-    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
 </body>
 </html>
 
